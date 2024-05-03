@@ -49,6 +49,7 @@ j.	covers_interaction_day_of_week: covers * day_of_week
 14)	Modelling: 
 a.	`Why Sarimax`: I have decided to use a SARIMAX model for this dataset, which includes about 2,285 rows and 23 columns, and exhibits both seasonal and non-seasonal trends in the target variable. I chose not to use LSTM models because the dataset is relatively small, which might hinder the model's ability to learn effectively. Similarly, I dismissed options like random forests, gradient boosting, and XGBoost due to concerns about potential overfitting given the limited data size. Furthermore, these models would require manual creation of features such as lags and rolling averages, increasing the dimensionality and thereby further risking overfitting. In contrast, the SARIMAX model manages both seasonal and non-seasonal components internally, making it a more suitable choice for this analysis.
 b.	Results: The training and test RMSE and MAE are close. Suggesting that the model is generalizing well and not overfitting.
-i.	### Average Train RMSE: `3.93`, ### Average Train MAE: `2.68`.
-ii.	### Average Test RMSE: `2.30`, ### Average Test MAE: `1.71`
+
+i. Average Train RMSE: `3.93`, Average Train MAE: `2.68`.
+ii.	Average Test RMSE: `2.30`, Average Test MAE: `1.71`
 
