@@ -1,0 +1,9 @@
+joblib
+matplotlib
+matplotlib-inline
+numpy
+numpydoc
+pandas
+seaborn
+statsmodels==0.14.2
+xgboost==2.0.3
