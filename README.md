@@ -51,5 +51,6 @@ a.	`Why Sarimax`: I have decided to use a SARIMAX model for this dataset, which 
 b.	Results: The training and test RMSE and MAE are close. Suggesting that the model is generalizing well and not overfitting.
 
 i. Average Train RMSE: `3.93`, Average Train MAE: `2.68`.
+
 ii.	Average Test RMSE: `2.30`, Average Test MAE: `1.71`
 
